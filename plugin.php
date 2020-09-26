@@ -13,8 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
   exit; // exit if accessed directly
 }
 
-/// A comment // KKKKKKKKKKKK
-
 ///////////////////////////////////////////////////////////////////////////
 
 // enqueue scripts for admin area
