@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
   exit; // exit if accessed directly
 }
 
-/// Super Cool Comme nt --- ooohh  /// -----
+/// Super Cool Comme nt --- ooohh  /// ----- //////
 
 ///////////////////////////////////////////////////////////////////////////
 
