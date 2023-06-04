@@ -1,4 +1,4 @@
-# mkstrz-plugin
+# MarketingStarz WordPress Theme Beautifier
 This plugin uses CSS heavily to change the look and feel of the standard WordPress theme. It's aim is to streamline, beautify, and improve aesthetically working in the WordPress backend. It does this through CSS, as well as functions to remove menu items, nag, notices, upsells, red notification cirles. It seems everyone today wants to upsell you on something. "Get the pro version" You probably have heard this a million times. And it's not fun when you are trying to do basical web developing when you're attention gets pulled in every direction. 
 
 Because of the constant stream of upsells and nags, as long as I work on the WordPress platform, which is for the forseeable future, this plugin will constantly be updated. 
