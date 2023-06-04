@@ -76,7 +76,7 @@
 }
 .home #wpadminbar #wp-admin-bar-site-name > .ab-item:before,
 .page #wpadminbar #wp-admin-bar-site-name > .ab-item:before {
-  content: "\e235" !important;
+  content: "\e624" !important;
   font-size: 16px !important;
   margin-top: 2px !important;
 }
@@ -139,6 +139,15 @@
 #toplevel_page_woocommerce-facebook-pixel .wp-menu-image:before {
   content: "\e626" !important;
 }
+.menu-icon-product .dashicons-before.wp-menu-image:before {
+  display: none;
+}
+.menu-icon-product .dashicons-before.wp-menu-image {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGZpbGw9IiNhN2FhYWQiIGQ9Ik02MTIuMTkyIDQyNi4zMzZjMC02Ljg5Ni0zLjEzNi01MS42LTI4LTUxLjYtMzcuMzYgMC00Ni43MDQgNzIuMjU2LTQ2LjcwNCA4Mi42MjQgMCAzLjQwOCAzLjE1MiA1OC40OTYgMjguMDMyIDU4LjQ5NiAzNC4xOTItLjAzMiA0Ni42NzItNzIuMjg4IDQ2LjY3Mi04OS41MnptMjAyLjE5MiAwYzAtNi44OTYtMy4xNTItNTEuNi0yOC4wMzItNTEuNi0zNy4yOCAwLTQ2LjYwOCA3Mi4yNTYtNDYuNjA4IDgyLjYyNCAwIDMuNDA4IDMuMDcyIDU4LjQ5NiAyNy45NTIgNTguNDk2IDM0LjE5Mi0uMDMyIDQ2LjY4OC03Mi4yODggNDYuNjg4LTg5LjUyek0xNDEuMjk2Ljc2OGMtNjguMjI0IDAtMTIzLjUwNCA1NS40ODgtMTIzLjUwNCAxMjMuOTJ2NjUwLjcyYzAgNjguNDMyIDU1LjI5NiAxMjMuOTIgMTIzLjUwNCAxMjMuOTJoMzM5LjgwOGwxMjMuNTA0IDEyMy45MzZWODk5LjMyOGgyNzguMDQ4YzY4LjIyNCAwIDEyMy41Mi01NS40NzIgMTIzLjUyLTEyMy45MnYtNjUwLjcyYzAtNjguNDMyLTU1LjI5Ni0xMjMuOTItMTIzLjUyLTEyMy45MmgtNzQxLjM2em01MjYuODY0IDQyMi4xNmMwIDU1LjA4OC0zMS4wODggMTU0Ljg4LTEwMi42NCAxNTQuODgtNi4yMDggMC0xOC40OTYtMy42MTYtMjUuNDI0LTYuMDE2LTMyLjUxMi0xMS4xNjgtNTAuMTkyLTQ5LjY5Ni01Mi4zNTItNjYuMjU2IDAgMC0zLjA3Mi0xNy43OTItMy4wNzItNDAuNzUyIDAtMjIuOTkyIDMuMDcyLTQ1LjMyOCAzLjA3Mi00NS4zMjggMTUuNTUyLTc1LjcyOCA0My41NTItMTA2LjczNiA5Ni40NDgtMTA2LjczNiA1OS4wNzItLjAzMiA4My45NjggNTguNTI4IDgzLjk2OCAxMTAuMjA4ek00ODYuNDk2IDMwMi40YzAgMy4zOTItNDMuNTUyIDE0MS4xNjgtNDMuNTUyIDIxMy40MjR2NzUuNzEyYy0yLjU5MiAxMi4wOC00LjE2IDI0LjE0NC0yMS44MjQgMjQuMTQ0LTQ2LjYwOCAwLTg4Ljg4LTE1MS40NzItOTIuMDE2LTE2MS44NC02LjIwOCA2Ljg5Ni02Mi4yNCAxNjEuODQtOTYuNDQ4IDE2MS44NC0yNC44NjQgMC00My41NTItMTEzLjY0OC00Ni42MDgtMTIzLjkzNkMxNzYuNzA0IDQzNi42NzIgMTYwIDMzNC4yMjQgMTYwIDMyNy4zMjhjMC0yMC42NzIgMS4xNTItMzguNzM2IDI2LjA0OC0zOC43MzYgNi4yMDggMCAyMS42IDYuMDY0IDIzLjcxMiAxNy4xNjggMTEuNjQ4IDYyLjAzMiAxNi42ODggMTIwLjUxMiAyOS4xNjggMTg1Ljk2OCAxLjg1NiAyLjkyOCAxLjUwNCA3LjAwOCA0LjU2IDEwLjQzMiAzLjE1Mi0xMC4yODggNjYuOTI4LTE2OC43ODQgOTQuOTYtMTY4Ljc4NCAyMi41NDQgMCAzMC40IDQ0LjU5MiAzMy41MzYgNjEuODI0IDYuMjA4IDIwLjY1NiAxMy4wODggNTUuMjE2IDIyLjQxNiA4Mi43NTIgMC0xMy43NzYgMTIuNDgtMjAzLjEyIDY1LjM5Mi0yMDMuMTIgMTguNTkyLjAzMiAyNi43MDQgNi45MjggMjYuNzA0IDI3LjU2OHpNODcwLjMyIDQyMi45MjhjMCA1NS4wODgtMzEuMDg4IDE1NC44OC0xMDIuNjQgMTU0Ljg4LTYuMTkyIDAtMTguNDQ4LTMuNjE2LTI1LjQyNC02LjAxNi0zMi40MzItMTEuMTY4LTUwLjE3Ni00OS42OTYtNTIuMjg4LTY2LjI1NiAwIDAtMy44ODgtMTcuOTItMy44ODgtNDAuODk2czMuODg4LTQ1LjE4NCAzLjg4OC00NS4xODRjMTUuNTUyLTc1LjcyOCA0My40ODgtMTA2LjczNiA5Ni4zODQtMTA2LjczNiA1OS4xMDQtLjAzMiA4My45NjggNTguNTI4IDgzLjk2OCAxMTAuMjA4eiIvPjwvc3ZnPg==) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 20px auto !important;
+}
 /* Admin Top Nav > SEO */
 #wpadminbar .yoast-logo.svg {
   background: none !important;
@@ -187,23 +196,70 @@ table.wp-list-table td.username img {
 .toplevel_page_cfdb7-list .dashicons-before.wp-menu-image:before {
   font-family: dashicons !important;
 }
+/* Serp Shaker */
+#menu-posts-shaker-page .wp-menu-image.dashicons-before img {
+  display: none;
+}
+#menu-posts-shaker-page .wp-menu-image.dashicons-before:before {
+  content: "\f18e" !important;
+  font-family: dashicons !important;
+  font-size: 23px;
+}
+/* All in one WP Migration */
+#toplevel_page_ai1wm_export .wp-menu-image.dashicons-before:before {
+  /*filter: sepia(100%) saturate(50%) hue-rotate(128deg);*/
+  content: "\f13b" !important;
+  font-family: dashicons !important;
+  background: none;
+  font-size: 23px;
+}
+#toplevel_page_ai1wm_export .wp-menu-open.toplevel_page_ai1wm_export,
+#toplevel_page_ai1wm_export .wp-menu-open.toplevel_page_ai1wm_export > a {
+  background-color: #324252 !important;
+}
+#toplevel_page_ai1wm_export .wp-submenu.wp-submenu-wrap {
+  box-shadow: none !important;
+}
+/* Link Privacy */
+#toplevel_page_link_privacy_update .wp-menu-image.dashicons-before:before {
+  content: "\f198" !important;
+  font-family: dashicons !important;
+  font-size: 23px;
+}
+/* Wordfence */
+#toplevel_page_Wordfence .wp-menu-image.dashicons-before:before {
+  /*filter: hue-rotate(176deg) invert(100%) saturate(40%);*/
+  content: "\f194" !important;
+  font-family: dashicons !important;
+  background: none;
+  font-size: 23px;
+}
+li#toplevel_page_Wordfence.wp-menu-open .wp-menu-image::before {
+  background: none !important;
+}
+#wf-site-cleaning-bottom {
+  display: none;
+}
+/* Reviews Bundle */
+#toplevel_page_brb .wp-menu-image.dashicons-before img {
+  display: none !important;
+}
+#toplevel_page_brb .wp-menu-image.dashicons-before:before {
+  content: "\f155" !important;
+  font-family: dashicons !important;
+}
 
 
+#adminmenu li.toplevel_page_pdr_random_posts div.wp-menu-image:before {
+  font-family: dashicons !important;
+}
+#adminmenu li#toplevel_page_delete_all_posts div.wp-menu-image:before {
+  font-family: dashicons !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#main-header {
+  background-color: #03aa1f !important;
+}
 
 
 
@@ -266,7 +322,10 @@ table.wp-list-table td.username img {
   text-transform: none !important;
   font-size: 13px !important;
 }
-
+.leave-review-footer {
+  color: #fff;
+  
+}
 
 
 
@@ -274,23 +333,24 @@ table.wp-list-table td.username img {
 
 
 /* disables plugin notification circle */
-#menu-dashboard .wp-submenu.wp-submenu-wrap {
+#menu-dashboard:hover:after,
+#toplevel_page_Wordfence .wf-notification-count-container {
   display: none !important;
 }
-#menu-dashboard:hover:after {
+
+
+
+
+
+
+
+
+#dashboard-widgets .postbox-container .empty-container {
+  outline: 3px dashed transparent !important;
+}
+#dashboard-widgets .postbox-container .empty-container:after {
   display: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -479,21 +539,9 @@ div[data-action].et_pb_modal_overlay .et_pb_prompt_modal {
 #wpadminbar .quicklinks li .blavatar {
   display: none !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#wpadminbar #wp-admin-bar-seedprod_admin_bar {
+  display: none !important;
+}
 
 
 /* ------------- removes admin top navbar nav menus ------------- */
@@ -559,13 +607,33 @@ div[data-action].et_pb_modal_overlay .et_pb_prompt_modal {
 #wp-admin-bar-root-default li#wp-admin-bar-jck-wt_options {
   display: none !important;
 }
-
-
-
-
-
-
-
+/* removes duplicate post */
+#wp-admin-bar-root-default li#wp-admin-bar-duplicate-post {
+  display: none !important;
+}
+/* new submenu */
+#wp-admin-bar-root-default li#wp-admin-bar-new-content {
+  display: none !important;
+}
+/* under site name submenu */
+#wp-admin-bar-site-name .ab-sub-wrapper {
+  display: none !important;
+}
+#wp-admin-bar-speed_booster_pack,
+#wp-admin-bar-cleantalk_admin_bar__parent_node,
+#wp-admin-bar-wp-mail-smtp-menu,
+#wp-admin-bar-easy-updates-manager-admin-bar,
+#wp-admin-bar-serpshaker,
+#wp-admin-bar-avada,
+#wp-admin-bar-fb-edit,
+#wp-admin-bar-wpseo-menu,
+#wp-admin-bar-nexcess-mapps,
+.page #wp-admin-bar-autoptimize {
+  display: none !important;
+}
+#wp-admin-bar-litespeed-menu {
+  display: inline-block !important;
+}
 
 
 
@@ -646,7 +714,8 @@ div[data-action].et_pb_modal_overlay .et_pb_prompt_modal {
 .yoast_premium_upsell_admin_block,
 .yoast-notification.notice.notice-warning.is-dismissible,
 /* remove yoast sidebar */
-.wpseo_content_cell#sidebar-container {
+.wpseo_content_cell#sidebar-container,
+.notice.notice-warning.mapps-notice {
   display: none !important;
 }
 /* shortcoder */
@@ -683,17 +752,25 @@ div[data-action].et_pb_modal_overlay .et_pb_prompt_modal {
 body.plugins-php .error {
   display: none !important;
 }
-
+.active-seed-prod-buttons-classic {
+  display: none !important;
+}
 
 
 
 /* disables the red, update plugins notice */
 #menu-plugins .update-plugins,
 /* disables yoast notifications */
-#toplevel_page_wpseo_dashboard .update-plugins {
+#toplevel_page_wpseo_dashboard .update-plugins,
+#toplevel_page_sbp-settings .update-plugins {
   display: none !important;
 }
 #adminmenu .wp-submenu li a[href='index.php?page=photocrati-auto_update-admin'] {
+  display: none !important;
+}
+#easy-updates-manager-dashnotice,
+.jitm-card,
+#easy-updates-manager-dashnotice {
   display: none !important;
 }
 
@@ -773,9 +850,31 @@ tr.plugin-update-tr.installer-plugin-update-tr.js-otgs-plugin-tr,
 /* user switching notice */
 #user_switching.updated,
 /* forminator rate us nag */
-#forminator-free-usage-notice {
+#forminator-free-usage-notice,
+#toplevel_page_sbp-settings .update-plugins,
+/* Gravity forms update nag */
+#gravityforms-update.plugin-update-tr.active,
+#gravityformsactivecampaign-update.plugin-update-tr.active,
+#gravityformsrecaptcha-update.plugin-update-tr.active,
+#gravityformsakismet-update.plugin-update-tr.active,
+#setting-error-tgmpa,
+tr[data-slug=wp-mail-smtp] .pro,
+tr[data-slug=speed-booster-pack] .desc .plugin-version-author-uri a:last-child,
+/*tr[data-slug=speed-booster-pack] .row-actions span:first-child,*/
+tr[data-slug=wordpress-seo] .row-actions span:first-child,
+tr[data-slug=updraftplus] .row-actions span:first-child,
+tr[data-slug=wp-2fa] .row-actions span:nth-child(2),
+#yoast-first-time-configuration-notice,
+.go_pro,
+tr[data-slug=google-analytics-for-wordpress] .row-actions span:first-child,
+.monsterinsights-menu-notification-indicator,
+.plugin-update-tr.js-otgs-plugin-tr,
+#revslider-update {
   display: none !important;
 }
+
+
+
 
 
 
@@ -804,3 +903,95 @@ tr.plugin-update-tr.installer-plugin-update-tr.js-otgs-plugin-tr,
 #the-list tr:last-child th {
   box-shadow: none !important;
 }
+
+
+/* Unlicensed Gravity Forms */
+.gf_browser_chrome img[title~=Unlicensed] {
+  display: none !important;
+}
+.gf_browser_chrome a[style~='width:880px;'] {
+  display: none !important;
+}
+
+/* YOAST warning on the permalinks page */
+.options-permalink-php .notice.notice-warning {
+  display: none !important;
+}
+
+
+
+
+
+
+
+.ao-plugin-uninstall-feedback-popup {
+  width: 0 !important;
+}
+.ao-plugin-uninstall-feedback-popup .popup--header,
+.ao-plugin-uninstall-feedback-popup .popup--body,
+.ao-plugin-uninstall-feedback-popup .popup--footer .info-disclosure-link,
+.ao-plugin-uninstall-feedback-popup .popup--footer .buttons input:nth-child(2),
+.ao-plugin-uninstall-feedback-popup .popup--footer .buttons input:nth-child(3) {
+  display: none !important;
+}
+
+#activecampaign-for-woocommerce-app-header a,
+#activecampaign_status .notice.notice-success,
+#activecampaign-for-woocommerce-product-sync .notice,
+#activecampaign-for-woocommerce-app .notice.notice-success,
+#activecampaign-for-woocommerce-abandoned-cart .notice.notice-success {
+  display: none !important;
+}
+
+.row-actions .blaze {
+  display: none !important;
+}
+
+.notice.wcs-nux__notice,
+#serp-shaker-update,
+li a[href="options-general.php?page=git-updater-pricing"],
+.xdebug-var-dump,
+#all-in-one-wp-migration-update,
+#accordion-section-astra-pro,
+#customize-control-astra-settings-ast-blog-pro-items,
+#customize-control-astra-settings-ast-single-post-items,
+#customize-control-astra-settings-ast-site-layout-button-link,
+#customize-control-astra-settings-header-builder-pro-items,
+.ast-customize-control-title,
+#customize-control-astra-settings-footer-builder-pro-items,
+tr.active[data-slug=essential-addons-for-elementor-lite] .row-actions span:nth-child(3),
+#accordion-section-blogarise_pro_upsell,
+#accordion-section-blogus_pro_upsell,
+#accordion-section-hestia_upsell_main_section,
+body #accordion-section-theme_upsell,
+#accordion-section-colorful_blog_pro,
+#accordion-section-upsell_section,
+#accordion-section-newsup_pro_upsell,
+.ai1wm-menu-count,
+.site-health-counter,
+#ws-pro-version-notice,
+tr[data-slug=wordpress-seo] .row-actions span:nth-child(2),
+.update-plugins,
+form#delete_posts_form table tr:nth-child(2),
+form#delete_posts_form table tr:nth-child(3),
+form#delete_posts_form table tr:nth-child(4),
+form#delete_posts_form table tr:nth-child(5),
+form#delete_posts_form table tr:nth-child(6),
+form#delete_posts_form table tr:nth-child(8),
+form#delete_posts_form table tr:nth-child(9),
+.upgrade_to_pro,
+.delete_notice,
+.notice.notice-warning,
+tr[data-slug=git-updater] .row-actions span.upgrade {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+

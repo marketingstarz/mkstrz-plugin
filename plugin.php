@@ -108,12 +108,12 @@ add_filter ( 'manage_edit-page_columns','page_columns_display');
 
 ////////////////////////////////////////////////////////////////////
 
-function remove_menu_items() {
-    global $wp_admin_bar;
-    $wp_admin_bar->remove_menu( 'new-content' );
-    $wp_admin_bar->remove_menu( 'comments' );
-}
-add_action( 'wp_before_admin_bar_render', 'remove_menu_items' );
+// function remove_menu_items() {
+//     global $wp_admin_bar;
+//     $wp_admin_bar->remove_menu( 'new-content' );
+//     $wp_admin_bar->remove_menu( 'comments' );
+// }
+// add_action( 'wp_before_admin_bar_render', 'remove_menu_items' );
 
 ////////////////////////////////////////////////////////////////////
 
