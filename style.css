@@ -971,6 +971,7 @@ body #accordion-section-theme_upsell,
 .site-health-counter,
 #ws-pro-version-notice,
 tr[data-slug=wordpress-seo] .row-actions span:nth-child(2),
+tr[data-slug=wordpress-seo] .row-actions span:nth-child(3),
 .update-plugins,
 form#delete_posts_form table tr:nth-child(2),
 form#delete_posts_form table tr:nth-child(3),
@@ -982,12 +983,12 @@ form#delete_posts_form table tr:nth-child(9),
 .upgrade_to_pro,
 .delete_notice,
 .notice.notice-warning,
-tr[data-slug=git-updater] .row-actions span.upgrade {
+tr[data-slug=git-updater] .row-actions span:nth-child(2),
+tr[data-slug=git-updater] .row-actions span:nth-child(3),
+tr[data-slug=git-updater] .row-actions span:nth-child(4),
+tr[data-slug=disable-comments] .row-actions span:nth-child(2) {
   display: none !important;
 }
-
-
-
 
 
 
