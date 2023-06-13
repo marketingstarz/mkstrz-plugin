@@ -990,7 +990,9 @@ tr[data-slug=disable-comments] .row-actions span:nth-child(2) {
   display: none !important;
 }
 
-
+.wcwcheckboxes {
+  color: #000 !important;
+}
 
 
 
