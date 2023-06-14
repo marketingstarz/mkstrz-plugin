@@ -986,10 +986,23 @@ form#delete_posts_form table tr:nth-child(9),
 tr[data-slug=git-updater] .row-actions span:nth-child(2),
 tr[data-slug=git-updater] .row-actions span:nth-child(3),
 tr[data-slug=git-updater] .row-actions span:nth-child(4),
-tr[data-slug=disable-comments] .row-actions span:nth-child(2) {
+tr[data-slug=disable-comments] .row-actions span:nth-child(2),
+.MorePlugins,
+#all-404-redirect-to-homepage-plugin-update-tr {
   display: none !important;
 }
 
+
+
+
+
+
 .wcwcheckboxes {
   color: #000 !important;
+}
+tr[data-slug=all-404-redirect-to-homepage] .row-actions span.settings {
+  color: #f0f6fc;
+}
+tr[data-slug=all-404-redirect-to-homepage] .row-actions span.settings a {
+  color: #2271b1;
 }
