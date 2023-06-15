@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function admin_theme_marketingstarz() {
   if ( is_user_logged_in() ) {
     wp_enqueue_style( 'admin_backend_styles', plugin_dir_url( __FILE__ ) . 'style.css', array(), '1.4.3' );
+    wp_enqueue_script( 'admin_backend_scripts', '/wp-content/plugins/mkstrz-plugin/script.js', '', '', true );
   }
 }
 add_action( 'admin_enqueue_scripts', 'admin_theme_marketingstarz' );
